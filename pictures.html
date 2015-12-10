@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
+
+        <title>~/Pictures/</title>
+
+        <!-- Bootstrap core CSS -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+        <link href="jumbotron-narrow.css" rel="stylesheet">
+    
+    
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="external/galleria/galleria-1.4.2.min.js"></script>
+        <style>
+            .g1{ width: 700px; height: 400px; background: #000 }
+            .g2{ width: 700px; height: 400px; background: #000 }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation"><a href="index.html">Home</a></li>
+            <li role="presentation" class="active"><a href="#">Pictures</a></li>
+            <li role="presentation"><a href="#">About</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Pictures</h3>
+        </div>
+        <div class="container">
+            <div class="header clearfix">
+                <h4 class="text-muted">Gallery 1</h3>
+            </div>
+            <div class="g1">
+                <img src="Pictures/snapshot2.png">
+                <img src="Pictures/snapshot2.png">
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="header clearfix">
+                <h4 class="text-muted">Gallery 2</h3>
+            </div>
+            <div class="g2">
+                <img src="Pictures/snapshot2.png">
+                <img src="Pictures/snapshot2.png">
+                <img src="Pictures/snapshot2.png">
+                <img src="Pictures/snapshot2.png">
+                <img src="Pictures/snapshot2.png">
+                <img src="Pictures/snapshot2.png">
+                <img src="Pictures/snapshot2.png">
+                <img src="Pictures/snapshot2.png">
+            </div>
+        </div>
+        
+
+        <script>
+            Galleria.loadTheme('external/galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('.g1');
+            Galleria.run('.g2');
+        </script>
+        </div> <!-- /container -->
+    </body>
+</html>
