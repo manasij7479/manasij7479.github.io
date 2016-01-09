@@ -37,16 +37,4 @@
           </ul>
         </nav>
         <h3 class="text-muted">Pictures</h3>
-        </div><div class="container">
-<div class="header clearfix">
-<h4 class="text-muted">g1</h3></div>
-<div class="g1">
-<img src=" scripts/data/pictures/galleries/g1/p1.png ">
-</div><hr></div>
-<script>
-Galleria.loadTheme('external/galleria/themes/classic/galleria.classic.min.js');
-Galleria.run('.g1');
-</script>
-        </div> <!-- /container -->
-    </body>
-</html>
+        </div>
